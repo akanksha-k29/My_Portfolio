@@ -5,10 +5,9 @@
   "source": "src/index.html",
   "homepage": "https://akanksha-k29.github.io/My_Portfolio",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://akanksha-k29.github.io/My_Portfolio'",
-    "predeploy": "npm run build-gh",
+      "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
