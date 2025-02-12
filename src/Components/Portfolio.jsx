@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,24 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "E-Bookstore Management System",
+    description: "Developed a book purchasing system using Java, JSP, Servlets, JDBC, and SQL. Implemented MVC architecture to manage books based on categories.",
+    url: "YOUR_GITHUB_LINK_HERE",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+   title: "SDE Internship at Bluestock Fintech",
+    description: "Worked as a Software Development Engineer (SDE) Intern, gaining hands-on experience in software development and problem-solving.",
+    url: "YOUR_INTERNSHIP_DETAILS_OR_LINK_HERE",
+  },
+  {
+    title: "Junior Content Writer at Alightway Solutions",
+    description: "Wrote technical and non-technical content, improving research and writing skills while contributing to various projects.",
+    url: "https://alightwaysolutions.com/",
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    description: "Created a personal resume website to showcase my experience, skills, and projects. Designed using modern web technologies and deployed online.",
+    url: "https://akanksha-k29.github.io/Resume/",
   },
 ];
 
